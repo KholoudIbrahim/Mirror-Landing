@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Mirror Application</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="icon" href="assets/imgs/mirror/M.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/odometer.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/vendor/fontawesome-pro.css" />
+    <link rel="stylesheet" href="assets/css/vendor/spacing.css" />
+    <link rel="stylesheet" href="assets/css/vendor/custom-font.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body style="background-color: white">
+    <!-- preloader start -->
+    <div id="preloader">
+      <div class="preloader-close">x</div>
+      <div class="sk-three-bounce">
+        <div class="sk-child sk-bounce1"></div>
+        <div class="sk-child sk-bounce2"></div>
+        <div class="sk-child sk-bounce3"></div>
+      </div>
+    </div>
+    <!-- preloader start -->
+    <!-- Backtotop start -->
+    <div class="backtotop-wrap cursor-pointer">
+      <!-- <svg class="backtotop-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+            </svg> -->
+      <i class="fa-solid fa-up-long"></i>
+    </div>
+    <!-- Backtotop end -->
+    <!-- Offcanvas area start -->
+    <div class="fix">
+      <div class="offcanvas__area">
+        <div class="offcanvas__wrapper">
+          <div class="offcanvas__content">
+            <div
+              class="offcanvas__top d-flex justify-content-between align-items-center"
+            >
+              <div class="offcanvas__logo">
+                <a href="index.html">
+                  <img
+                    src="assets/imgs/mirror/logo-notxt-removebg-preview.png"
+                    alt="Mirror Logo"
+                    loading="lazy"
+                  />
+                </a>
+              </div>
+              <div class="offcanvas__close">
+                <button class="offcanvas-close-icon animation--flip">
+                  <span class="offcanvas-m-lines">
+                    <span class="offcanvas-m-line line--1"></span>
+                    <span class="offcanvas-m-line line--2"></span>
+                    <span class="offcanvas-m-line line--3"></span>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="mobile-menu fix"></div>
+            <div class="offcanvas__social">
+              <h3 class="offcanvas__title mb-20">
+                تابعنا على منصات التواصل الاجتماعي
+              </h3>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61565635907941&mibextid=LQQJ4d"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/tharawat_company?igsh=MWxzOXM1Y3M1NzA4aw=="
+                  >
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="offcanvas__overlay"></div>
+    <div class="offcanvas__overlay-white"></div>
+    <!-- Offcanvas area start -->
+    <!-- Header area start -->
+    <header>
+      <div
+        id="header-sticky"
+        class="header__area header3 white-bg"
+        style="z-index: 99999"
+      >
+        <div class="header-container">
+          <div class="mega__menu-wrapper p-relative">
+            <div class="header__main">
+              <div class="header__left">
+                <div class="header__logo">
+                  <a href="index.html">
+                    <div class="logo d-flex">
+                      <div class="col-xl-6">
+                        <ul
+                          class="d-flex justify-content-between align-items-center"
+                          style="list-style: none"
+                        >
+                          <li>
+                            <img
+                              src="assets/imgs/mirror/logo-notxt.png"
+                              alt="Mirror Logo"
+                              loading="lazy"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="header__middle">
+                <div class="mean__menu-wrapper d-none d-xl-block">
+                  <div class="main-menu">
+                    <nav id="mobile-menu">
+                      <ul>
+                        <li class="active">
+                          <a href="javascript:void(0)">Home</a>
+                        </li>
+                        <li>
+                          <a href="#our-part">مساهمتنا</a>
+                        </li>
+                        <li>
+                          <a href="#services">خدماتنا</a>
+                        </li>
+
+                        <!-- <li>
+                                                    <a href="#testimonials">عملاؤنا</a>
+                                                </li> -->
+                        <li>
+                          <a href="#contact-us">Contact Us</a>
+                        </li>
+                        <li>
+                          <a href="#visit-us"> قم بزيارتنا</a>
+                        </li>
+                        <li>
+                          <a href="#subscribe">اشترك معنا</a>
+                        </li>
+                        <li>
+                          <select
+                            data-i18n-switcher
+                            class="locale-switcher mt-4"
+                            id="select"
+                          >
+                            <option
+                              value="en"
+                              style="color: var(--theme) !important"
+                            >
+                              English
+                            </option>
+                            <option value="ar">Arabic (العربية)</option>
+                          </select>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <div class="header__right">
+                <div class="header__action action-3 d-flex align-items-center">
+                  <div class="header-2-icon d-none d-sm-inline-flex">
+                    <svg
+                      width="55"
+                      height="55"
+                      viewBox="0 0 55 55"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_3984_62)">
+                        <path
+                          d="M31.8535 30.2461H42.8705"
+                          stroke="#034833"
+                          stroke-width="2.57908"
+                          stroke-miterlimit="10"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M31.8535 35.3555H42.8705"
+                          stroke="#034833"
+                          stroke-width="2.57908"
+                          stroke-miterlimit="10"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M31.8535 40.4648H42.8705"
+                          stroke="#034833"
+                          stroke-width="2.57908"
+                          stroke-miterlimit="10"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M12.041 12.0547H23.058"
+                          stroke="#034833"
+                          stroke-width="2.57908"
+                          stroke-miterlimit="10"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M12.041 17.1641H23.058"
+                          stroke="#034833"
+                          stroke-width="2.57908"
+                          stroke-miterlimit="10"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M12.041 22.2773H17.5495"
+                          stroke="#034833"
+                          stroke-width="2.57908"
+                          stroke-miterlimit="10"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <mask
+                          id="mask0_3984_62"
+                          style="mask-type: luminance"
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="55"
+                          height="55"
+                        >
+                          <path
+                            d="M0 7.62939e-06H55V55H0V7.62939e-06Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask0_3984_62)">
+                          <path
+                            d="M37.3613 47.2486H42.27H44.6512C44.9039 47.2486 44.8766 47.2394 45.1019 47.3581L49.8704 49.8037C50.1292 49.898 50.251 49.8281 50.2388 49.5694L49.9618 44.4805C49.9557 44.441 49.9465 44.435 49.9739 44.4106C52.5501 42.2205 54.1943 38.9628 54.1943 35.34V34.8229C54.1943 28.2708 48.829 22.9112 42.27 22.9112H32.1939C25.6349 22.9112 20.2695 28.2708 20.2695 34.8229V35.34C20.2695 41.889 25.6349 47.2486 32.1939 47.2486H33.6403"
+                            stroke="#034833"
+                            stroke-width="2.57908"
+                            stroke-miterlimit="10"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M18.3959 5.15734H22.8021C29.3611 5.15734 34.7264 10.517 34.7264 17.069V17.583C34.7264 19.4963 34.2697 21.3063 33.4596 22.9124M21.5384 29.4947H12.7291H10.3478C10.0921 29.4947 10.1195 29.4856 9.89408 29.6012L5.12562 32.0499C4.86985 32.1442 4.74503 32.0741 4.76018 31.8126L5.03432 26.7267C5.04033 26.6841 5.04946 26.678 5.02207 26.6568C2.44599 24.4666 0.804688 21.2089 0.804688 17.583V17.069C0.804688 10.517 6.17009 5.15734 12.7291 5.15734H14.6749"
+                            stroke="#034833"
+                            stroke-width="2.57908"
+                            stroke-miterlimit="10"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </g>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_3984_62">
+                          <rect width="55" height="55" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="text">
+                    <span class="">لمزيد من الإستفسارات</span>
+                    <h4>
+                      <a href="tel:+20 02 2814 0005">0005 2814 02 20+</a>
+                    </h4>
+                  </div>
+                  <div class="header__hamburger ml-20 d-xl-none">
+                    <div class="sidebar__toggle">
+                      <button class="bar-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section style="padding-top: 100px; background-color: white">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6" style="padding-top: 100px">
+              <h1
+                class="welc-to"
+                style="
+                  font-size: 60px;
+                  color: #010101;
+                  font-weight: 700;
+                  padding-bottom: 10px;
+                "
+                data-i18n-key="welcome"
+              >
+                Welcome to
+         
+              </h1>
+                <img
+                  class="homepage-logo"
+                  style="width: 416px; height: 90px; margin-left: 60px"
+                  src="..\assets\imgs\mirror\logo-notxt.png"
+                  alt=""
+                  loading="lazy"
+                />
+              <h2
+                style="
+                  color: gray;
+                  padding-bottom: 10px;
+                  font-size: 40px;
+                  line-height: 1.2;
+                "
+                data-i18n-key="home-1"
+              >
+                Your go-to platform for discovering top local brands and
+                authentic products.
+              </h2>
+              <h3 style="color: darkgray" data-i18n-key="home-2">
+                Browse, shop, and connect with standout stores all in one place!
+              </h3>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-6">
+              <!-- <img width="500" height="500" src="..\assets\imgs\mirror\MIRROR STICKER.png" alt=""> -->
+              <div
+                class="abtImg text-center aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                style="margin-left: 70px"
+              >
+               <img
+                  class="second-img"
+                  src="..\assets\imgs\mirror\no-bg\remove-Photoroom.png"
+                  alt=""
+                  loading="lazy"
+                />
+                <!-- <img
+                  src="https://souqmazadeg.com/home/public/dist/landing-images/Fawzy-Frame.png"
+                  alt="image"
+                  style="
+                    width: 80%;
+                    height: 80%;
+                    overflow: hidden;
+                    position: relative;
+                    z-index: 99;
+                  "
+                  loading="lazy"
+                />
+                <img
+                  class="second-img"
+                  src="..\assets\imgs\mirror\home1.png"
+                  alt=""
+                  loading="lazy"
+                /> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us Start -->
+      <!-- Banner Start -->
+      <section class="banner overflow-hidden" style="margin-top: 100px">
+        <div class="container">
+          <div class="banner-box">
+            <h1 id="headingBig" style="z-index: 5">M</h1>
+            <div class="banner-text">
+              <h2 id="headingSmall" data-i18n-key="about-title">About Mirror</h2>
+              <h3 id="headingText" style="font-size: 25px" data-i18n-key="about-pt1">
+                Mirror is an innovative app designed to connect shoppers with
+                local stores offering authentic and high-quality local brand
+                products.<br />
+                <span data-i18n-key="about-pt2">Our goal is to empower stores to present their
+                products professionally and provide users with a smooth and
+                secure shopping experience. imagination to reality.
+                <span>
+              </h3>
+            </div>
+            <div class="row gx-0">
+              <div class="col-md-6 col-xxl-7 ms-auto abc">
+                <div class="banner-img" id="bannerBigimg">
+                  <img
+                    src="assets/imgs/mirror/category product1 copy.png"
+                    class="img-fluid"
+                    alt="Image"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Banner End -->
+      <!-- About Us End -->
+
+      <!--coaching2-section-->
+      <section
+        id="services"
+        class="custom-width border"
+        style="background-color: white"
+      >
+        <div class="coaching2__area section-space-top pb-90">
+          <div class="container">
+            <div class="row mb-minus-30">
+              <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6">
+                <div class="section__title-wrapper text-center mb-30">
+                  <h2
+                    class="title text-center wow fadeInLeft animated"
+                    data-wow-delay=".3s"
+                    style="
+                      visibility: visible;
+                      animation-delay: 0.3s;
+                      animation-name: fadeInLeft;
+                      font-size: 221px;
+                      font-style: normal;
+                      font-weight: 400;
+                      line-height: 1;
+                      color: rgba(0, 0, 0, 0.06);
+                      text-transform: uppercase;
+                      position: absolute;
+                      /* top: 98px; */
+                      left: 0;
+                      width: 2500px;
+                      user-select: none;
+                      pointer-events: none;
+                      margin-top: 1460px;;
+                      margin-left: -393px;
+                    "
+                    data-i18n-key="how-works"
+                  >
+                    How it Works
+                  </h2>
+                </div>
+              </div>
+              <!-- First Row -->
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div
+                  class="coaching2__item mb-30 wow fadeInLeft text-center animated"
+                  data-wow-delay=".4s"
+                  style="
+                    visibility: visible;
+                    animation-delay: 0.4s;
+                    animation-name: fadeInLeft;
+                  "
+                >
+                  <div class="coaching2__item-icon mb-30">
+                    <div
+                      class="abtImg text-center aos-init aos-animate"
+                      data-aos="fade-up"
+                      data-aos-duration="1500"
+                    >
+
+                    <img width="500"
+                        height="500" style="width: 101%;height: 90%;" src="..\assets\imgs\mirror\no-bg\2.PNG" loading="lazy">
+
+                      <!-- <img
+                        src="https://souqmazadeg.com/home/public/dist/landing-images/Fawzy-Frame.png"
+                        alt="image"
+                        style="
+                          width: 100%;
+                          overflow: hidden;
+                          position: relative;
+                          z-index: 99;
+                        "
+                        loading="lazy"
+                      />
+                      <img
+                        width="500"
+                        height="500"
+                        src="..\assets\imgs\mirror\sign Up.png"
+                        style="
+                          position: absolute;
+                          margin-left: -283.5px;
+                          z-index: -1;
+                          width: 70%;
+                          border-radius: 25px !important;
+                          height: 90%;
+                          margin-top: 17px;
+                        "
+                        alt=""
+                        loading="lazy"
+                      /> -->
+                      <!-- ? -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- ******* -->
+              <div class="col-xl-5 col-lg-5 col-md-6 col-sm-6">
+                <div
+                  class="coaching2__item mb-30 wow fadeInLeft text-center animated"
+                  data-wow-delay=".5s"
+                  style="
+                    visibility: visible;
+                    animation-delay: 0.5s;
+                    animation-name: fadeInLeft;
+                  "
+                >
+                  <div class="coaching2__item-icon mb-30">
+                    <p
+                      style="
+                        font-size: 26px;
+                        margin-top: 216px;
+                        letter-spacing: 2px;
+                        height: 226px;
+                      "
+                      data-i18n-key="one"
+                    >
+                      Download the app and sign up as a user or store owner.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- ******* -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                <div
+                  class="coaching2__item mb-30 wow fadeInLeft text-center animated"
+                  data-wow-delay=".6s"
+                  style="
+                    visibility: visible;
+                    animation-delay: 0.6s;
+                    animation-name: fadeInLeft;
+                  "
+                >
+                  <div
+                    class="coaching2__item-icon mb-30"
+                    style="font-size: 50px; margin-top: 216px"
+                  >
+                    .1
+                  </div>
+                </div>
+              </div>
+
+              <!-- Second Row -->
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div
+                  class="coaching2__item mb-30 wow fadeInLeft text-center animated"
+                  data-wow-delay=".8s"
+                  style="
+                    visibility: visible;
+                    animation-delay: 0.8s;
+                    animation-name: fadeInLeft;
+                  "
+                >
+                  <div class="coaching2__item-icon mb-30">
+                    <div
+                      class="abtImg text-center aos-init aos-animate"
+                      data-aos="fade-up"
+                      data-aos-duration="1500"
+                    >
+                    
+                        <img
+                        src="assets/imgs/mirror/no-bg/3.png"
+                        alt="image"
+                        loading="lazy"
+                        width="500"
+                        height="500" style="width: 101%;height: 90%;">
+                      
+                      
+                      
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-5 col-lg-5 col-md-6 col-sm-6">
+                <div
+                  class="coaching2__item mb-30 wow fadeInLeft text-center animated"
+                  data-wow-delay=".5s"
+                  style="
+                    visibility: visible;
+                    animation-delay: 0.5s;
+                    animation-name: fadeInLeft;
+                  "
+                >
+                  <div class="coaching2__item-icon mb-30">
+                    <p
+                      style="
+                        font-size: 26px;
+                        margin-top: 216px;
+                        letter-spacing: 2px;
+                        height: 226px;
+                      "
+                       data-i18n-key="two"
+                    >
+                      Browse stores and products easily.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                <div
+                  class="coaching2__item mb-30 wow fadeInLeft text-center animated"
+                  data-wow-delay=".6s"
+                  style="
+                    visibility: visible;
+                    animation-delay: 0.6s;
+                    animation-name: fadeInLeft;
+                  "
+                >
+                  <div
+                    class="coaching2__item-icon mb-30"
+                    style="font-size: 50px; margin-top: 216px"
+                  >
+                    .2
+                  </div>
+                </div>
+              </div>
+              <!-- Third Row -->
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div
+                  class="coaching2__item mb-30 wow fadeInLeft text-center animated"
+                  data-wow-delay=".8s"
+                  style="
+                    visibility: visible;
+                    animation-delay: 0.8s;
+                    animation-name: fadeInLeft;
+                  "
+                >
+                  <div class="coaching2__item-icon mb-30">
+                    <div
+                      class="abtImg text-center aos-init aos-animate"
+                      data-aos="fade-up"
+                      data-aos-duration="1500"
+                    >
+
+                    
+                      <img
+                        src="assets/imgs/mirror/no-bg/four.PNG"
+                        alt="image"
+                        style="
+                          width: 100%;
+                          overflow: hidden;
+                          position: relative;
+                          z-index: 99;
+                        "
+                        loading="lazy"
+                      />
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-5 col-lg-5 col-md-6 col-sm-6">
+                <div
+                  class="coaching2__item mb-30 wow fadeInLeft text-center animated"
+                  data-wow-delay=".5s"
+                  style="
+                    visibility: visible;
+                    animation-delay: 0.5s;
+                    animation-name: fadeInLeft;
+                  "
+                >
+                  <div class="coaching2__item-icon mb-30">
+                    <p
+                      style="
+                        font-size: 26px;
+                        margin-top: 216px;
+                        letter-spacing: 2px;
+                        height: 226px;
+                      "
+                       data-i18n-key="three"
+                    >
+                      Contact the store directly or purchase through the app.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                <div
+                  class="coaching2__item mb-30 wow fadeInLeft text-center animated"
+                  data-wow-delay=".6s"
+                  style="
+                    visibility: visible;
+                    animation-delay: 0.6s;
+                    animation-name: fadeInLeft;
+                  "
+                >
+                  <div
+                    class="coaching2__item-icon mb-30"
+                    style="font-size: 50px; margin-top: 216px"
+                  >
+                    .3
+                  </div>
+                </div>
+              </div>
+              <!-- ******* -->
+              <!-- Fourth Row -->
+
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div
+                  class="coaching2__item mb-30 wow fadeInLeft text-center animated"
+                  data-wow-delay=".8s"
+                  style="
+                    visibility: visible;
+                    animation-delay: 0.8s;
+                    animation-name: fadeInLeft;
+                  "
+                >
+                  <div class="coaching2__item-icon mb-30">
+                    <div
+                      class="abtImg text-center aos-init aos-animate"
+                      data-aos="fade-up"
+                      data-aos-duration="1500"
+                    >
+                      
+                      <img
+                        src="assets/imgs/mirror/no-bg/5 (2).png"
+                        alt="image"
+                      style=" width: 100%;
+                          overflow: hidden;
+                          position: relative;
+                          z-index: 99;margin-right: 8px;"
+                        loading="lazy"
+                      />
+                 
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-5 col-md-6 col-sm-6">
+                <div
+                  class="coaching2__item mb-30 wow fadeInLeft text-center animated"
+                  data-wow-delay=".5s"
+                  style="
+                    visibility: visible;
+                    animation-delay: 0.5s;
+                    animation-name: fadeInLeft;
+                  "
+                >
+                  <div class="coaching2__item-icon mb-30">
+                    <p
+                      style="
+                        font-size: 26px;
+                        margin-top: 216px;
+                        letter-spacing: 2px;
+                        height: 226px;
+                      "
+                       data-i18n-key="four"
+                    >
+                      Track your order until delivery.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-5 col-lg-3 col-md-6 col-sm-6">
+                <div
+                  class="coaching2__item mb-30 wow fadeInLeft text-center animated"
+                  data-wow-delay=".6s"
+                  style="
+                    visibility: visible;
+                    animation-delay: 0.6s;
+                    animation-name: fadeInLeft;
+                  "
+                >
+                  <div
+                    class="coaching2__item-icon mb-30"
+                    style="font-size: 50px; margin-top: 216px"
+                  >
+                    .4
+                  </div>
+                </div>
+              </div>
+              <!-- ******* -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trial Start -->
+
+      <!-- Company Start -->
+      <section
+        class="company-section white-bg position-relative overflow-hidden"
+        style="margin-top: -100px"
+      >
+        <h2 class="title text-center" data-i18n-key="stores">Stores</h2>
+        <div class="container">
+          <div class="row align-items-stretch" style="margin-block: 50px">
+            <div class="col-md-6 align-self-center pb-4 pb-md-5 pb-lg-0">
+              <div class="py-lg-5" id="compDescription">
+                <div class="pb-md-3 paragraph">
+                  <p data-i18n-key="stores-desc">
+                    Own a personalized store page, showcase your products, track
+                    orders, and connect with customers effortlessly. Mirror is
+                    your partner in boosting sales and reaching new customers.
+                  </p>
+                </div>
+                <a href="javascript:void(0)" class="common-btn"
+                  >read more
+                  <img
+                    src="https://www.yudiz.com/codepen/interior-design/arrow-right.svg"
+                    class="img-fluid"
+                    alt="Arrow"
+                    loading="lazy"
+                /></a>
+              </div>
+            </div>
+            <!-- col -->
+            <div class="col-md-6">
+              <div class="compy-box mt-5 my-md-0 position-relative">
+                <div
+                  class="abtImg text-center aos-init aos-animate"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                  style="margin-left: 70px"
+                >
+                  <img
+                    src="https://souqmazadeg.com/home/public/dist/landing-images/Fawzy-Frame.png"
+                    alt="image"
+                    style="
+                      width: 50%;
+                      height: 50%;
+                      overflow: hidden;
+                      position: relative;
+                      z-index: 99;
+                    "
+                    loading="lazy"
+                  />
+                  <img
+                    style="
+                      position: absolute;
+                      margin-left: -258px;
+                      z-index: 5;
+                      width: 42%;
+                      border-radius: 40px !important;
+                      height: 530px;
+                      margin-top: 10px;
+                    "
+                    src="..\assets\imgs\mirror\home1.png"
+                    alt=""
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- col -->
+          </div>
+          <!-- row -->
+        </div>
+      </section>
+      <!-- Company End -->
+
+      <!-- Designer Start -->
+      <section class="designer-section black-bg theme-dark position-relative">
+        <h2 class="title text-center" data-i18n-key="shoppers">Shoppers</h2>
+        <div class="container">
+          <div class="row gx-4 align-items-stretch">
+            <div class="col-md-6" style="margin-top: 122px">
+              <div class="designer-box position-relative">
+                <div class="team-member team1">
+                  <img
+                    src="assets/imgs/mirror/Shops2 copy.png"
+                    class="img-fluid"
+                    alt="Team Member"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="team-member team2">
+                  <img
+                    src="assets/imgs/mirror/category product1 copy.png"
+                    class="img-fluid"
+                    alt="Team Member"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="team-member team3">
+                  <img
+                    src="assets/imgs/mirror/home2.png"
+                    class="img-fluid"
+                    style="height: 98%"
+                    alt="Team Member"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="box-border"></div>
+              </div>
+            </div>
+            <!-- col -->
+            <div class="col-md-6 align-self-center">
+              <div class="py-4 py-lg-5" id="designDescription">
+                <div class="pb-3 paragraph">
+                  <p data-i18n-key="shoppers-desc">
+                    Discover standout local brands and shop high-quality
+                    authentic products. Mirror makes it easy to access the best
+                    stores near you.
+                  </p>
+                </div>
+                <a href="javascript:void(0)" class="common-btn"
+                  >read more
+                  <img
+                    src="https://www.yudiz.com/codepen/interior-design/arrow-right.svg"
+                    class="img-fluid"
+                    alt="Arrow"
+                    loading="lazy"
+                /></a>
+              </div>
+            </div>
+            <!-- col -->
+          </div>
+          <!-- row -->
+        </div>
+      </section>
+      <!-- Designer End -->
+
+      <!-- Testimonials Start -->
+      <section
+        class="testimonial-section white-bg position-relative overflow-hidden"
+      >
+        <h2 class="title text-center" data-i18n-key="faq">FAQ's</h2>
+        <div class="container">
+          <div class="row g-0 left-row">
+            <div class="col-md-6">
+              <div class="content border-end-0">
+                <h3 data-i18n-key="q1">Can I sell through the app?</h3>
+                <p data-i18n-key="a1">
+                  Yes, you can register as a seller and easily create your
+                  store.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-box">
+                <img
+                  src="assets/imgs/mirror/Shops2-1.png"
+                  class="img-fluid"
+                  alt="person"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- row -->
+          <div class="row g-0 reverse-row right-row">
+            <div class="col-md-6">
+              <div class="img-box">
+                <img
+                  src="assets/imgs/mirror/product1 added fav2.png"
+                  class="img-fluid"
+                  alt="person"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="content border-start-0">
+                <h3 data-i18n-key="q2">Are the products authentic?</h3>
+                <p data-i18n-key="a2">
+                  We ensure all stores on the app offer authentic or trusted
+                  local brand products.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+      </section>
+
+      <!--contact-section-->
+      <!-- <section
+        id="contact-us"
+        class="contact-us__area border section-space-top pb-120 custom-width overflow-hidden mt-500"
+        style="background-color: white"
+      >
+        <div class="container">
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-lg-8 col-md-8 col-sm-6 text-center">
+              <div class="faq-header">Frequently Asked Questions</div>
+
+              <div class="faq-content">
+                <div class="faq-question">
+                  <input id="q1" type="checkbox" class="panel" />
+                  
+                  <label for="q1" class="panel-title"
+                    >Can I sell through the app?
+                    <span class="plus"> +</span>
+                  </label>
+                  <div class="panel-content">
+                    Yes, you can register as a seller and easily create your
+                    store.
+                  </div>
+                </div>
+
+                <div class="faq-question">
+                  <input id="q2" type="checkbox" class="panel" />
+                  <label for="q2" class="panel-title"
+                    >Are the products authentic?
+                    <span class="plus"> +</span></label
+                  >
+                  <div class="panel-content">
+                    We ensure all stores on the app offer authentic or trusted
+                    local brand products.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- end contact section -->
+      <!-- Testimonials End -->
+
+      <!-- Trial End -->
+
+      <!--contact-section-->
+      <section
+        id="contact-us"
+        class="contact-us__area border bg-gray section-space-top pb-120 custom-width overflow-hidden mt-500"
+        style="background-color: white"
+      >
+        <div class="container">
+          <div class="row" style="margin-inline: 200px">
+            <div class="section__title-wrapper mb-40">
+              <h2
+                class="section__title-wrapper-title wow fadeInLeft animated"
+                data-wow-delay=".3s"
+                style="
+                  visibility: visible;
+                  animation-delay: 0.3s;
+                  animation-name: fadeInLeft;
+                "
+                data-i18n-key="contact-1"
+              >
+                Have any question or suggestion? <br />
+              
+              </h2>
+                <span class="mx-1 contactSub" style="font-size: 29px; margin-inline: 5px" data-i18n-key="contact-2"
+                  >Contact us via email or through the form inside the
+                  app.</span
+                >
+            </div>
+          </div>
+
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <img
+                width="500"
+                height="500"
+                src="..\assets\imgs\mirror\MIRROR STICKER.png"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+              <!-- English -->
+              <div class="contact-us__title-wrapper">
+                <div class="contact-us__form-wrapper white-bg">
+                  <form
+                    class="contact-us__form"
+                    method="POST"
+                    id="contact-us__form"
+                  >
+                    <input
+                      type="hidden"
+                      name="access_key"
+                      value="0a8438d6-b1a2-4261-846d-dfefcb9f19c8"
+                    />
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div
+                          class="contact-us__input wow fadeInLeft animated"
+                          data-wow-delay=".4s"
+                          style="
+                            visibility: visible;
+                            animation-delay: 0.4s;
+                            animation-name: fadeInLeft;
+                          "
+                        >
+                          <span>Email Address</span>
+                          <input
+                            name="email"
+                            id="email"
+                            type="email"
+                            placeholder="Email Address"
+                          />
+                          <div class="icon">
+                            <i class="fa-solid fa-paper-plane"></i>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12">
+                        <div
+                          class="contact-us__textarea wow fadeInLeft animated"
+                          data-wow-delay=".7s"
+                          style="
+                            visibility: visible;
+                            animation-delay: 0.7s;
+                            animation-name: fadeInLeft;
+                          "
+                        >
+                          <span style="font-size: 20px">Message</span>
+                          <textarea
+                            name="textarea"
+                            id="textarea"
+                            cols="30"
+                            rows="10"
+                            placeholder="Write Your Message Here.."
+                            style="direction: ltr"
+                          ></textarea>
+                          <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <button
+                          type="submit"
+                          id="ContactUs"
+                          class="common-btn mt-5 wow fadeInLeft animated"
+                          style="
+                            font-size: 20px;
+                            visibility: visible;
+                            animation-delay: 0.8s;
+                            animation-name: fadeInLeft;
+                          "
+                          data-wow-delay=".8s"
+                        >
+                          Send Message
+                          <img
+                            src="https://www.yudiz.com/codepen/interior-design/arrow-right.svg"
+                            class="img-fluid"
+                            alt="Arrow"
+                            loading="lazy"
+                          />
+                        </button>
+                        <div id="result"></div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <!-- Arabic Version -->
+              <div class="contact-us__title-wrapper contact-us__title-wrapper-arabic">
+                <div class="contact-us__form-wrapper white-bg">
+                  <form
+                    class="contact-us__form"
+                    method="POST"
+                    id="contact-us__form"
+                  >
+                    <input
+                      type="hidden"
+                      name="access_key"
+                      value="0a8438d6-b1a2-4261-846d-dfefcb9f19c8"
+                    />
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div
+                          class="contact-us__input wow fadeInLeft animated"
+                          data-wow-delay=".4s"
+                          style="
+                            visibility: visible;
+                            animation-delay: 0.4s;
+                            animation-name: fadeInLeft;
+                          "
+                        >
+                          <span>البريد الالكتروني</span>
+                          <input
+                            name="email"
+                            id="email"
+                            type="email"
+                            placeholder="البريد الالكتروني"
+                          />
+                          <div class="icon">
+                            <i class="fa-solid fa-paper-plane"></i>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12">
+                        <div
+                          class="contact-us__textarea wow fadeInLeft animated"
+                          data-wow-delay=".7s"
+                          style="
+                            visibility: visible;
+                            animation-delay: 0.7s;
+                            animation-name: fadeInLeft;
+                          "
+                        >
+                          <span style="font-size: 20px">رسالتك</span>
+                          <textarea
+                            name="textarea"
+                            id="textarea"
+                            cols="30"
+                            rows="10"
+                            placeholder="اكتب رسالتك هنا.."
+                            style="direction: ltr"
+                          ></textarea>
+                          <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <button
+                          type="submit"
+                          id="ContactUs"
+                          class="common-btn mt-5 wow fadeInLeft animated"
+                          style="
+                            font-size: 20px;
+                            visibility: visible;
+                            animation-delay: 0.8s;
+                            animation-name: fadeInLeft;
+                          "
+                          data-wow-delay=".8s"
+                        >
+                          ارسل الرسالة
+                          <img
+                            src="https://www.yudiz.com/codepen/interior-design/arrow-right.svg"
+                            class="img-fluid"
+                            alt="Arrow"
+                            loading="lazy"
+                          />
+                        </button>
+                        <div id="result"></div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="scroll-percentage">
+      <span id="scroll-percentage-value"></span>
+    </div>
+    <!-- Footer area start -->
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6 data-i18n-key="about-title">About</h6>
+            <p class="text-justify mt-3" data-i18n-key="about-pt1">
+              Mirror is an innovative app designed to connect shoppers with
+              local stores offering authentic and high-quality local brand
+              products.
+            </p>
+            <p class="text-justify " style="margin-top: -15px;" data-i18n-key="about-pt2">
+              Our goal is to empower stores to present their
+              products professionally and provide users with a smooth and secure
+              shopping experience. imagination to reality.
+            </p>
+
+            <a href="/terms.html" class="mx-3">Terms & Conditions</a>
+            <a href="/privacy.html">Privacy Policy</a>
+          </div>
+
+          
+          <div class="col-xs-6 col-md-3">
+            <h6 data-i18n-key="quick-links">Quick Links</h6>
+            <ul class="footer-links">
+              <li class="mt-3">
+                <a href="http://scanfcode.com/about/" data-i18n-key="about-title">About Us</a>
+              </li>
+              <li class="mt-3">
+                <a href="http://scanfcode.com/contact/" data-i18n-key="contact-us">Contact Us</a>
+              </li>
+              <li class="mt-3">
+                <a href="http://scanfcode.com/contribute-at-scanfcode/"
+                  >Contribute</a
+                >
+              </li>
+              <li class="mt-3">
+                <a href="http://scanfcode.com/privacy-policy/"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6 data-i18n-key="contact-us">Contact Us</h6>
+            <ul class="footer-links">
+              <li class="mt-3">
+                <i class="fa-solid fa-location-dot me-2"></i>
+                <a href="http://scanfcode.com/category/front-end-development/"
+                  >New Cairo</a
+                >
+              </li>
+              <li class="mt-3">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="http://scanfcode.com/category/back-end-development/"
+                  >info@gmail.com
+                </a>
+              </li>
+              <li class="mt-3">
+                <i class="fa-solid fa-phone"></i>
+                <a
+                  href="http://scanfcode.com/category/java-programming-language/"
+                  >01169749933</a
+                >
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        <hr />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">
+              Copyright &copy; 2025 All Rights Reserved by
+              <a href="#">Mirror</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li>
+                <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+              </li>
+              <li>
+                <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer area end -->
+    <!-- JS here -->
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/plugins/waypoints.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/plugins/meanmenu.min.js"></script>
+    <script src="assets/js/plugins/swiper.min.js"></script>
+    <script src="assets/js/plugins/wow.js"></script>
+    <script src="assets/js/vendor/magnific-popup.min.js"></script>
+    <script src="assets/js/vendor/type.js"></script>
+    <script src="assets/js/vendor/vanilla-tilt.js"></script>
+    <script src="assets/js/plugins/nice-select.min.js"></script>
+    <!-- <script src="assets/js/jquery.nice-select.min.js"></script> -->
+    <script src="assets/js/vendor/odometer.min.js"></script>
+    <script src="assets/js/vendor/jquery-ui.min.js"></script>
+    <script src="assets/js/plugins/parallax-scroll.js"></script>
+    <script src="assets/js/plugins/jquery.countdown.min.js"></script>
+    <script src="assets/js/vendor/smooth-scroll.js"></script>
+    <script src="assets/js/plugins/isotope-docs.min.js"></script>
+    <script src="assets/js/vendor/ajax-form.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+      const form = document.getElementById("contact-us__form");
+      const result = document.getElementById("result");
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const formData = new FormData(form);
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+        result.innerHTML = "Please wait...";
+
+        fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: json,
+        })
+          .then(async (response) => {
+            let json = await response.json();
+            if (response.status == 200) {
+              result.innerHTML = "Form submitted successfully";
+            } else {
+              console.log(response);
+              result.innerHTML = json.message;
+            }
+          })
+          .catch((error) => {
+            console.log(error);
+            result.innerHTML = "Something went wrong!";
+          })
+          .then(function () {
+            form.reset();
+            setTimeout(() => {
+              result.style.display = "none";
+            }, 3000);
+          });
+      });
+    </script>
+  </body>
+</html>
